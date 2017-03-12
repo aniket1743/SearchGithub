@@ -1,0 +1,87 @@
+body{
+	height: 100%;
+	font-size: 18px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+}
+
+.search{
+	font-size: 18px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	width: 40%;
+	height: 35px;
+	padding: 3px 3px 3px 3px;
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-appearance: textfield;
+}
+
+.go{
+	font-size: 18px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	width: 15%;
+	height: 35px;
+	padding: 3px 3px 3px 3px;
+	border: 1px solid rgb(178, 178, 178);
+	background-color: rgb(255,255,255);
+}
+
+.go:hover{
+	background-color: rgb(178,178,178);
+}
+
+#heading{
+	font-size: 40px;
+	color: rgb(158, 158, 158);
+	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+#sub{
+	font-size: 20px;
+	color: rgb(158, 158, 158);
+	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+	/*font-weight: bold;*/
+	text-align: center;	
+}
+
+.result{
+	overflow: scroll;
+	width: 99%;
+	height: 75%;
+	margin: 0;
+	margin-right: 2px;
+	position: relative;
+	padding: 0;
+	align-self: center;
+	/*float: left;*/
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+
+#by_email{
+	text-align: center;
+	width: 49%;
+	height: 90%;
+	margin: 0;
+	margin-right: 2px;
+	position: relative;
+	padding: 0;
+	float: left;
+	border: 1px solid rgba(147, 184, 189,0.8);
+}
+#by_tag{
+	text-align: center;
+	width: 49%;
+	height: 90%;
+	margin: 0;
+	margin-left: 2px;
+	position: relative;
+	padding: 0;
+	float: left;
+	border: 1px solid rgba(147, 184, 189,0.8);
+}
